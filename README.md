@@ -1,4 +1,4 @@
-#React App with Electron Ready
+# React App with Electron Ready
 
 - Electron JS latest
 - React with CRACO
