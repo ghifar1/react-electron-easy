@@ -17,7 +17,9 @@ function splashScreen() {
     show: false,
   });
 
-  splash.loadFile("../splash/splash_screen.html");
+  splash.loadFile(__dirname + '/el_file/splash/splash_screen.html').catch((err) =>{
+      console.log(err)
+  });
   win.loadURL(isDev ? "http://localhost:3000" : `file://${path.join(__dirname, '../build/index.html')}`).catch((err) => {
     console.log(err + "errorrrr");
     dialog
