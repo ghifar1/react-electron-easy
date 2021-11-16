@@ -4,6 +4,6 @@
 - React with CRACO
 - Splash screen built in
 
-simple as typeing
+simple as typing
 ``` yarn start ```
 and happy coding!
